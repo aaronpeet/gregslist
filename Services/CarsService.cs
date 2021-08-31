@@ -26,5 +26,14 @@ namespace gregslist.Services
             FakeDB.Cars.Add(newCar);
             return newCar;
         }
+
+        internal void Delete(string id)
+        {
+            int deleted = FakeDB.Cars.RemoveAll(c => c.Id == id);
+            if (deleted == 0)
+            {
+                throw new Exception("Invalid ID");
+            }
+        }
     }
 }
