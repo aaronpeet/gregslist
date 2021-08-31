@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "f09KPxeGzRfj1/FAtfIE03Q7djPMVKSCg1IahjxqP8xleMr63sTzCmDBkod23DaCl4r7BeO9yZY1+wG+1fsdfQ==",
+  "success": true,
+  "projectFilePath": "/Users/natalyapeet/codeworks/dailychallange/gregslist/gregslist.csproj",
+  "expectedPackageFiles": [
+    "/Users/natalyapeet/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/natalyapeet/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/natalyapeet/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/natalyapeet/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/natalyapeet/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/natalyapeet/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
