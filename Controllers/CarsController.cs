@@ -30,5 +30,37 @@ namespace gregslist.Controllers
                 return BadRequest(error.Message);
             }
         }
+
+        [HttpGet("{id}")]
+
+        public ActionResult<Car> Get(string id)
+        {
+            try
+            {
+                Car found = _carsService.Get(id);
+                return Ok(found);
+            }
+            catch (Exception error)
+            {
+
+                return BadRequest(error.Message);
+            }
+        }
+
+        [HttpPost]
+
+        public ActionResult<Car> Create([FromBody] Car newCar)
+        {
+            try
+            {
+                Car car = _carsService.Create(newCar);
+                return Ok(car);
+            }
+            catch (Exception error)
+            {
+
+                return BadRequest(error.Message);
+            }
+        }
     }
 }
